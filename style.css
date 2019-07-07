@@ -1,0 +1,19 @@
+
+#main-list{list-style-type: none}
+
+.main {
+	padding-left: 2em;
+}
+
+.arch-img {
+	width: 30%;
+	/*height: 60vh;*/
+}
+#myimg {
+
+  	background-image: url(svg/bistatAnimated.svg);
+  	background-repeat: no-repeat;
+	width: 50%;
+	height: 60vh;
+	/*basically max height; as long as val is higher than min height */
+}
