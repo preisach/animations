@@ -1,0 +1,38 @@
+
+#main-list{list-style-type: none}
+
+.button {
+	border-radius: 1rem;
+}
+/*can't use % for border-radius cause it is calibrated to the element's width and height independently*/
+.buttons {
+	text-align: center;
+}
+
+.fa:before {
+	font-family: FontAwesome;
+}
+
+.fa-play:before {
+	content: "\f04b"; 
+}
+
+.fa-play-circle:before {
+	content: "\f144"; 
+}
+
+.fa-play-circle-o:before {
+	content: "\f01d"; 
+}
+
+.fa-download:before {
+	content: "\f019"; 
+}
+
+.fa-github:before {
+	content: "\f09b";
+}
+
+.main {
+	padding-left: 2em;
+}
